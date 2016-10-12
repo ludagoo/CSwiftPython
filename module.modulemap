@@ -1,5 +1,5 @@
 module CSwiftPython [system] {
-  header "Python.h"
+  header "/usr/include/python3.5/Python.h"
   link "python"
   export *
 }
